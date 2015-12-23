@@ -65,6 +65,7 @@ node default {
   include osx::keyboard::capslock_to_control
   include osx::no_network_dsstores
   include osx::safari::enable_developer_mode
+  include zsh
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
