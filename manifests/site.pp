@@ -50,6 +50,7 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   include dnsmasq
+  include dotfiles
   include fonts::larsenwork::monoid
   include git
   include osx::dock::autohide
