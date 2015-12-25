@@ -79,6 +79,11 @@ GITHUBTARBALL
     module_data (0.0.4)
 
 GITHUBTARBALL
+  remote: thingssimple/puppet-coreutils
+  specs:
+    coreutils (0.0.3)
+
+GITHUBTARBALL
   remote: thingssimple/puppet-dotfiles
   specs:
     dotfiles (0.0.6)
@@ -96,6 +101,7 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.11.1)
   brewcask (= 0.0.6)
+  coreutils (= 0.0.3)
   dnsmasq (= 2.0.1)
   dotfiles (= 0.0.6)
   fonts (= 0.0.5)

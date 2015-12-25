@@ -49,6 +49,8 @@ Service {
 Homebrew::Formula <| |> -> Package <| |>
 
 node default {
+  include coreutils
+  include coreutils::gnubin
   include dnsmasq
   include dotfiles
   include fonts::larsenwork::monoid
