@@ -40,6 +40,7 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 github "brewcask",    "0.0.6"
 github "coreutils",   "0.0.3", :repo => "thingssimple/puppet-coreutils"
+github "ctags",       "1.0.0"
 github "dnsmasq",     "2.0.1"
 github "dotfiles",    "0.0.6", :repo => "thingssimple/puppet-dotfiles"
 github "fonts",       "0.0.5", :repo => "thingssimple/puppet-fonts"

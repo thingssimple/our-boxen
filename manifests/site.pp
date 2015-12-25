@@ -51,6 +51,7 @@ Homebrew::Formula <| |> -> Package <| |>
 node default {
   include coreutils
   include coreutils::gnubin
+  include ctags
   include dnsmasq
   include dotfiles
   include fonts::larsenwork::monoid
