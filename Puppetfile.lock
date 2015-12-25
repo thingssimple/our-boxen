@@ -88,6 +88,11 @@ GITHUBTARBALL
   specs:
     fonts (0.0.5)
 
+GITHUBTARBALL
+  remote: thingssimple/puppet-vim
+  specs:
+    vim (0.0.5)
+
 DEPENDENCIES
   boxen (= 3.11.1)
   brewcask (= 0.0.6)
@@ -105,6 +110,7 @@ DEPENDENCIES
   repository (= 2.4.1)
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
+  vim (= 0.0.5)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
 
