@@ -56,6 +56,7 @@ node default {
   include dotfiles
   include fonts::larsenwork::monoid
   include git
+  include gpg
   include osx::dock::autohide
   include osx::dock::clear_dock
   include osx::dock::hide_indicator_lights
