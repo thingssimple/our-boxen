@@ -98,6 +98,11 @@ GITHUBTARBALL
   specs:
     vim (0.0.8)
 
+GITHUBTARBALL
+  remote: thingssimple/puppet-z
+  specs:
+    z (0.0.6)
+
 DEPENDENCIES
   boxen (= 3.11.1)
   brewcask (= 0.0.6)
@@ -118,5 +123,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   vim (= 0.0.8)
   xquartz (= 1.2.1)
+  z (= 0.0.6)
   zsh (= 1.0.0)
 

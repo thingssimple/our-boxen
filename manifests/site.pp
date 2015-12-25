@@ -71,6 +71,7 @@ node default {
   include osx::safari::enable_developer_mode
   include vim
   include vim::vundle
+  include z
   include zsh
 
   # fail if FDE is not enabled
