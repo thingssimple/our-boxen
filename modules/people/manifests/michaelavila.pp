@@ -5,4 +5,6 @@ class people::michaelavila {
   repository { $dotfiles:
     source  => 'michaelavila/dotfiles'
   }
+
+  osx::recovery_message { 'If found, please email me@michaelavila.com': }
 }
