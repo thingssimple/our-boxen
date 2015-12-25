@@ -4,11 +4,6 @@ GITHUBTARBALL
     boxen (3.11.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-brewcask
-  specs:
-    brewcask (0.0.6)
-
-GITHUBTARBALL
   remote: boxen/puppet-ctags
   specs:
     ctags (1.0.0)
@@ -84,6 +79,11 @@ GITHUBTARBALL
     module_data (0.0.4)
 
 GITHUBTARBALL
+  remote: thingssimple/puppet-chefdk
+  specs:
+    chefdk (0.0.6)
+
+GITHUBTARBALL
   remote: thingssimple/puppet-coreutils
   specs:
     coreutils (0.0.3)
@@ -120,7 +120,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.11.1)
-  brewcask (= 0.0.6)
+  chefdk (= 0.0.6)
   coreutils (= 0.0.3)
   ctags (= 1.0.0)
   dnsmasq (= 2.0.1)
