@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: thingssimple/puppet-dotfiles
   specs:
-    dotfiles (0.0.4)
+    dotfiles (0.0.6)
 
 GITHUBTARBALL
   remote: thingssimple/puppet-fonts
@@ -97,7 +97,7 @@ DEPENDENCIES
   boxen (= 3.11.1)
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
-  dotfiles (= 0.0.4)
+  dotfiles (= 0.0.6)
   fonts (= 0.0.5)
   gcc (= 3.0.2)
   git (= 2.7.92)
