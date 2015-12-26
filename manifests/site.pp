@@ -75,8 +75,10 @@ node default {
   include osx::no_network_dsstores
   include osx::safari::enable_developer_mode
   include tmux
+  include vagrant
   include vim
   include vim::vundle
+  include virtualbox
   include z
   include zsh
 
