@@ -80,6 +80,7 @@ node default {
   include vim
   include vim::vundle
   include virtualbox
+  include wget
   include z
   include zsh
 
