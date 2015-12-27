@@ -74,6 +74,7 @@ node default {
   include osx::keyboard::capslock_to_control
   include osx::no_network_dsstores
   include osx::safari::enable_developer_mode
+  include ruby
   include terraform
   include tmux
   include vagrant
