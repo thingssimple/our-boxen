@@ -114,6 +114,11 @@ GITHUBTARBALL
     osx (2.8.3)
 
 GITHUBTARBALL
+  remote: thingssimple/puppet-terraform
+  specs:
+    terraform (0.0.1)
+
+GITHUBTARBALL
   remote: thingssimple/puppet-vim
   specs:
     vim (0.0.8)
@@ -148,6 +153,7 @@ DEPENDENCIES
   repository (= 2.4.1)
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
+  terraform (= 0.0.1)
   tmux (= 1.0.2)
   vagrant (= 3.3.4)
   vim (= 0.0.8)
