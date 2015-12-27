@@ -66,8 +66,6 @@ node default {
   include osx::finder::show_all_on_desktop
   include osx::finder::show_hidden_files
   include osx::finder::unhide_library
-  include osx::global::enable_dark_mode
-  include osx::global::enable_dark_mode_shortcut
   include osx::global::expand_print_dialog
   include osx::global::expand_save_dialog
   include osx::global::tap_to_click
