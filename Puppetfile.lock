@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: thingssimple/puppet-dotfiles
   specs:
-    dotfiles (0.0.6)
+    dotfiles (0.0.7)
 
 GITHUBTARBALL
   remote: thingssimple/puppet-fonts
@@ -121,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: thingssimple/puppet-osx
   specs:
-    osx (2.8.3)
+    osx (2.8.4)
 
 GITHUBTARBALL
   remote: thingssimple/puppet-terraform
@@ -149,7 +149,7 @@ DEPENDENCIES
   coreutils (= 0.0.3)
   ctags (= 1.0.0)
   dnsmasq (= 2.0.1)
-  dotfiles (= 0.0.6)
+  dotfiles (= 0.0.7)
   fonts (= 0.0.5)
   gcc (= 3.0.2)
   git (= 2.7.92)
@@ -158,7 +158,7 @@ DEPENDENCIES
   inifile (= 1.4.1)
   module_data (= 0.0.4)
   openssl (= 1.0.0)
-  osx (= 2.8.3)
+  osx (= 2.8.4)
   pkgconfig (= 1.0.0)
   repository (= 2.4.1)
   ruby (= 8.5.3)
