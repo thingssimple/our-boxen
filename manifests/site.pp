@@ -49,6 +49,7 @@ Service {
 Homebrew::Formula <| |> -> Package <| |>
 
 node default {
+  include ag
   include chefdk
   include coreutils
   include coreutils::gnubin
