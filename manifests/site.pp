@@ -49,6 +49,11 @@ Service {
 Homebrew::Formula <| |> -> Package <| |>
 
 node default {
+  # fail if FDE is not enabled
+  if $::root_encrypted == 'no' {
+    fail('Please enable full disk encryption and try again')
+  }
+
   include ag
   include chefdk
   include coreutils
@@ -86,9 +91,8 @@ node default {
   include z
   include zsh
 
-  # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
+  class { 'osx::mouse::button_mode':
+    mode => 2
   }
 
   file_line { "Source boxen environment":
