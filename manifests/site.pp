@@ -49,6 +49,11 @@ Service {
 Homebrew::Formula <| |> -> Package <| |>
 
 node default {
+  # fail if FDE is not enabled
+  if $::root_encrypted == 'no' {
+    fail('Please enable full disk encryption and try again')
+  }
+
   include chefdk
   include coreutils
   include coreutils::gnubin
@@ -84,11 +89,6 @@ node default {
   include wget
   include z
   include zsh
-
-  # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
 
   class { 'osx::mouse::button_mode':
     mode => 2
