@@ -93,6 +93,13 @@ node default {
   include z
   include zsh
 
+  # Useful homebrew packages
+  package {
+    [
+      'heroku-toolbelt'
+    ]:
+  }
+
   class { 'osx::mouse::button_mode':
     mode => 2
   }
