@@ -71,6 +71,7 @@ node default {
   include osx::global::tap_to_click
   include osx::keyboard::capslock_to_control
   include osx::no_network_dsstores
+  include osx::safari::disable_search_suggestions
   include osx::safari::enable_developer_mode
   include osx::safari::search_engine
   include ruby
