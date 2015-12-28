@@ -54,7 +54,6 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  include ag
   include chefdk
   include coreutils
   include coreutils::gnubin
@@ -96,7 +95,8 @@ node default {
   # Useful homebrew packages
   package {
     [
-      'heroku-toolbelt'
+      'heroku-toolbelt',
+      'the_silver_searcher'
     ]:
   }
 
