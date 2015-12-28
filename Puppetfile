@@ -38,7 +38,6 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "ag",          "0.0.1", :repo => "thingssimple/puppet-ag"
 github "chefdk",      "0.0.6", :repo => "thingssimple/puppet-chefdk"
 github "coreutils",   "0.0.3", :repo => "thingssimple/puppet-coreutils"
 github "ctags",       "1.0.0"
