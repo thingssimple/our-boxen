@@ -90,6 +90,10 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
+  class { 'osx::mouse::button_mode':
+    mode => 2
+  }
+
   file_line { "Source boxen environment":
     path => "${home}/.zshrc",
     line => "source /opt/boxen/env.sh"
