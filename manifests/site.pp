@@ -54,7 +54,6 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  include chefdk
   include coreutils
   include coreutils::gnubin
   include ctags
