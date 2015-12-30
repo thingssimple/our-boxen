@@ -87,6 +87,7 @@ node default {
   include ruby
   include terraform
   include tmux
+  include tor
   include vagrant
   include vim
   include vim::vundle
